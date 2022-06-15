@@ -1,6 +1,6 @@
-package albums
+package models
 
-type Alumbs struct {
+type Albums struct {
 	ID          uint    `json:"id"`
 	Title       string  `json:"title"`
 	Singer      float64 `json:"singer"`
